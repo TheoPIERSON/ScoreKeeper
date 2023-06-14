@@ -15,6 +15,10 @@ let scoreP2 = 0;
 
 goal.addEventListener("input", function () {
   endScore.textContent = goal.value;
+  playerOneScore.textContent = scoreP1 = 0;
+  playerOneScore.style.color = "black";
+  playerTwoScore.textContent = scoreP2 = 0;
+  playerTwoScore.style.color = "black";
 });
 
 playerOneButton.addEventListener("click", function () {
