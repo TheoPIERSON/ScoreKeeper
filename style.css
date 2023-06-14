@@ -1,0 +1,48 @@
+* {
+  margin: 0%;
+  font-family: "Bagel Fat One", cursive;
+}
+body {
+  background-color: antiquewhite;
+}
+.inputs {
+  padding: 1rem;
+}
+main {
+  background-color: sandybrown;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero {
+  text-align: center;
+  padding: 1rem;
+}
+p {
+  font-size: 2rem;
+}
+#inputGoal {
+  border: 0px;
+  width: 4.5rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+#playerOne,
+#playerTwo {
+  font-size: 8rem;
+}
+#playerOneButton,
+#playerTwoButton,
+#resetButton {
+  border-radius: 8px;
+  border: 0px;
+  padding: 0.4rem;
+  margin: 5px;
+}
+#playerOneButton:active,
+#playerTwoButton:active,
+#resetButton:active {
+  background-color: rgb(178, 178, 178);
+}

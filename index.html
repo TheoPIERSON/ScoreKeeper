@@ -3,15 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
-    <h1><span id="playerOne">0</span> to <span id="playerTwo">0</span></h1>
-    <p>Playing to: <span id="endScore">0</span></p>
-    <input id="inputGoal" type="number" value="0" />
-    <button id="playerOneButton">Player One</button>
-    <button id="playerTwoButton">Player Two</button>
-    <button id="resetButton">Reset</button>
+    <main>
+      <span id="playerOne">0</span>
+      <div class="hero">
+        <p>Playing to: <span id="endScore">0</span></p>
+        <input id="inputGoal" type="number" value="0" />
+        <div class="inputs">
+          <button id="playerOneButton">Player One</button>
+          <button id="playerTwoButton">Player Two</button>
+        </div>
+        <button id="resetButton">Reset</button>
+      </div>
+      <span id="playerTwo">0</span>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>
